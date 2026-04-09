@@ -1,0 +1,34 @@
+# OSM 下载缓存（运行时自动生成，无需上传）
+OSM_POI_Labeling/cache/
+
+# 打分结果 & 检查点（运行产物）
+checkpoint_*.csv
+*_labeled.csv
+
+# parquet 缓存文件
+*.parquet
+
+# Jupyter 运行痕迹
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# 边界/地理数据（体积大，与打标签无关）
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.cpg
+*.qmd
+SG_DataZoneBdry_2022/
+geography-dz2021-geojson/
+Local_Authority_Districts_*
+Lower_layer_Super_Output_Areas_*
+NUTS_RG_01M_*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
