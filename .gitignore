@@ -4,6 +4,7 @@ OSM_POI_Labeling/cache/
 # 打分结果 & 检查点（运行产物）
 checkpoint_*.csv
 *_labeled.csv
+!OSM_POI_Labeling/UK_OCM_stations_labeled.csv
 
 # parquet 缓存文件
 *.parquet
