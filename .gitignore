@@ -33,3 +33,10 @@ NUTS_RG_01M_*
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Python bytecode (历史上误被跟踪，本次清理)
+__pycache__/
+*.pyc
+
+# 手工备份
+*.bak
