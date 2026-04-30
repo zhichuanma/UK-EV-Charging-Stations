@@ -1,5 +1,8 @@
 ## Column notes (as of Stage 7)
 
+- `StationID` : local canonical sequential station ID (`1..N`) over the
+  LAD/LSOA-valid station universe. It is not the original Open Charge Map
+  station ID.
 - `huff_score_<scene>` : **LEGACY, FROZEN**. Computed by the pre-Stage-7 POI
   labeling pipeline with a 500 m hard cutoff. Preserved as historical artifact;
   no longer updated. Not used by any active code in the Stage 1+ architecture.
